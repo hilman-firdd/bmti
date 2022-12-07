@@ -1,0 +1,3402 @@
+/* header */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    .logo-header {
+        margin-top: 5px;
+    }
+    .logo-header img {
+        width: 140px;
+        height: 90px;
+    }
+    .icon-menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .akun-button {
+        margin-left: -10px;
+        margin-top: 35px;
+    }
+    .mandiri-hidden-1 {
+        position: relative;
+        margin-top: 10px;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-2 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-3 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .logo-header {
+        margin-top: 5px;
+    }
+    .logo-header img {
+        width: 140px;
+        height: 90px;
+    }
+    .icon-menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .akun-button {
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+    .mandiri-hidden-1 {
+        position: relative;
+        margin-top: 10px;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-2 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-3 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .logo-header {
+        margin-top: 5px;
+    }
+    .logo-header img {
+        width: 140px;
+        height: 90px;
+    }
+    .icon-menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .akun-button {
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+    .mandiri-hidden-1 {
+        position: relative;
+        margin-top: 10px;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-2 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-3 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .icon-menu {
+        margin-left: -30px;
+        display: block;
+    }
+    .icon-menu-hover {
+        margin-left: 55px;
+    }
+    .menu {
+        display: none;
+    }
+    .akun-button {
+        margin-left: -15px;
+        margin-top: 35px;
+    }
+    .mandiri-hidden-1 {
+        position: relative;
+        margin-top: 10px;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-2 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mandiri-hidden-3 {
+        position: relative;
+        margin-top: 0;
+        text-align: start;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .akun-button {
+        margin-left: -55px;
+    }
+}
+
+
+/* end header */
+
+
+/* login,register, lupa password */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    /* login */
+    .login-container {
+        margin-top: 130px;
+        width: 90%;
+        height: 70%;
+    }
+    .logo-login {
+        margin-top: -40px;
+    }
+    .login-container .left-box {
+        width: 100%;
+    }
+    .icon-user-login {
+        left: 81%;
+        font-size: 12px;
+        margin-top: -22px;
+    }
+    .icon-password-login {
+        left: 81%;
+        font-size: 12px;
+        margin-top: -25px;
+    }
+    .form-login input {
+        font-size: 14px;
+        width: 100%;
+    }
+    .login-container span {
+        position: relative;
+        bottom: 3px;
+        left: 3px;
+        font-size: 12px;
+    }
+    .clik-LupaPassword {
+        font-size: 12px;
+    }
+    .clik-register button {
+        position: relative;
+        top: 2px;
+        right: 8px;
+    }
+    .clik-register-2 a {
+        position: relative;
+        top: 3px;
+    }
+    .button-mini {
+        display: block;
+    }
+    .btn-closed {
+        display: none;
+    }
+    .logo-login-right-1 {
+        display: none;
+    }
+    .text-logo-right-1 {
+        display: none;
+    }
+    .logo-login-right-2 {
+        display: none;
+    }
+    .text-logo-right-2 {
+        display: none;
+    }
+    .login-container .right-box {
+        display: none;
+    }
+    /* end login */
+    /* register */
+    .register-container {
+        margin-top: 130px;
+        width: 90%;
+        height: 70%;
+    }
+    .register-container .left-box {
+        width: 100%;
+    }
+    .clik-sudah-daftar {
+        font-size: 12px;
+    }
+    .clik-daftar {
+        padding-bottom: 47px;
+    }
+    .register-container .right-box {
+        display: none;
+    }
+    /* end register */
+    /* lupa password */
+    .LupaPassword-container {
+        margin-top: 130px;
+        width: 90%;
+        height: 70%;
+    }
+    .LupaPassword-container .left-box {
+        width: 100%;
+    }
+    .text-forget {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    .clik-forget {
+        padding-bottom: 110px;
+    }
+    .LupaPassword-container .right-box {
+        display: none;
+    }
+    /* end lupa password */
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    /* login */
+    .login-container {
+        margin-top: 40px;
+        width: 90%;
+        height: 90%;
+    }
+    .logo-login {
+        margin-top: -40px;
+    }
+    .login-container .left-box {
+        width: 100%;
+    }
+    .icon-user-login {
+        left: 81%;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .icon-password-login {
+        left: 81%;
+        font-size: 12px;
+        margin-top: -25px;
+    }
+    .form-login input {
+        font-size: 14px;
+        width: 100%;
+    }
+    .login-container span {
+        position: relative;
+        bottom: 3px;
+        left: 3px;
+        font-size: 12px;
+    }
+    .clik-LupaPassword {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .clik-register button {
+        position: relative;
+        top: 2px;
+        right: 8px;
+    }
+    .clik-register-2 a {
+        position: relative;
+        top: 3px;
+    }
+    .button-mini {
+        display: block;
+    }
+    .btn-closed {
+        display: none;
+    }
+    .logo-login-right-1 {
+        display: none;
+    }
+    .text-logo-right-1 {
+        display: none;
+    }
+    .logo-login-right-2 {
+        display: none;
+    }
+    .text-logo-right-2 {
+        display: none;
+    }
+    .login-container .right-box {
+        display: none;
+    }
+    /* end login */
+    /* register */
+    .register-container {
+        margin-top: 40px;
+        width: 90%;
+        height: 90%;
+    }
+    .register-container .left-box {
+        width: 100%;
+    }
+    .clik-sudah-daftar {
+        font-size: 12px;
+    }
+    .clik-daftar {
+        padding-bottom: 47px;
+    }
+    .register-container .right-box {
+        display: none;
+    }
+    /* end register */
+    /* lupa password */
+    .LupaPassword-container {
+        margin-top: 40px;
+        width: 90%;
+        height: 90%;
+    }
+    .LupaPassword-container .left-box {
+        width: 100%;
+    }
+    .text-forget {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    .clik-forget {
+        padding-bottom: 135px;
+    }
+    .LupaPassword-container .right-box {
+        display: none;
+    }
+    /* end lupa password */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* login */
+    .login-container {
+        margin-top: 40px;
+        width: 90%;
+        height: 90%;
+    }
+    .logo-login {
+        margin-top: -40px;
+    }
+    .login-container .left-box {
+        width: 100%;
+    }
+    .icon-user-login {
+        left: 81%;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .icon-password-login {
+        left: 81%;
+        font-size: 12px;
+        margin-top: -25px;
+    }
+    .form-login input {
+        font-size: 14px;
+        width: 100%;
+    }
+    .login-container span {
+        position: relative;
+        bottom: 3px;
+        left: 3px;
+        font-size: 12px;
+    }
+    .clik-LupaPassword {
+        font-size: 12px;
+    }
+    .clik-register button {
+        position: relative;
+        top: 2px;
+        right: 8px;
+    }
+    .clik-register-2 a {
+        position: relative;
+        top: 3px;
+    }
+    .button-mini {
+        display: block;
+    }
+    .btn-closed {
+        display: none;
+    }
+    .logo-login-right-1 {
+        display: none;
+    }
+    .text-logo-right-1 {
+        display: none;
+    }
+    .logo-login-right-2 {
+        display: none;
+    }
+    .text-logo-right-2 {
+        display: none;
+    }
+    .login-container .right-box {
+        display: none;
+    }
+    /* end login */
+    /* register */
+    .register-container {
+        margin-top: 40px;
+        width: 90%;
+        height: 90%;
+    }
+    .register-container .left-box {
+        width: 100%;
+    }
+    .clik-sudah-daftar {
+        font-size: 12px;
+    }
+    .clik-daftar {
+        padding-bottom: 47px;
+    }
+    .register-container .right-box {
+        display: none;
+    }
+    /* end register */
+    /* lupa password */
+    .LupaPassword-container {
+        margin-top: 40px;
+        width: 90%;
+        height: 90%;
+    }
+    .LupaPassword-container .left-box {
+        width: 100%;
+    }
+    .text-forget {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+    }
+    .clik-forget {
+        padding-bottom: 135px;
+    }
+    .LupaPassword-container .right-box {
+        display: none;
+    }
+    /* end lupa password */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* login */
+    .login-container {
+        margin-top: 30px;
+    }
+    .login-container span {
+        position: relative;
+        bottom: 2px;
+        left: 3px;
+        font-size: 14px;
+    }
+    .form-login input {
+        font-size: 15px;
+    }
+    .clik-LupaPassword {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .icon-user-login {
+        left: 42%;
+    }
+    .icon-password-login {
+        left: 42%;
+    }
+    .btn-closed {
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+    .clik-register button {
+        position: relative;
+        top: 2px;
+        right: 8px;
+    }
+    .clik-register-2 a {
+        position: relative;
+        top: 2px;
+    }
+    .logo-login-right-1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .logo-login-right-1 img {
+        width: 60px;
+        height: 60px;
+    }
+    .text-logo-right-1 {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .text-logo-right-1 span {
+        font-size: 13px;
+    }
+    .logo-login-right-2 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .logo-login-right-2 img {
+        width: 65px;
+        height: 65px;
+    }
+    .text-logo-right-2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .text-logo-right-2 span {
+        font-size: 13px;
+    }
+    .login-container .right-box {
+        background-image: url('assets/images/login-2.png');
+    }
+    /* end login */
+    /* register */
+    .register-container {
+        margin-top: 30px;
+    }
+    .clik-sudah-daftar {
+        font-size: 14px;
+    }
+    .clik-daftar {
+        padding-bottom: 39px;
+    }
+    .register-container .right-box {
+        background-image: url('assets/images/login-2.png');
+    }
+    /* end register */
+    /* lupa password */
+    .LupaPassword-container .right-box {
+        background-image: url('assets/images/login-2.png');
+    }
+    .clik-forget {
+        padding-bottom: 118px;
+    }
+    .text-forget {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    /* end lupa password */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* login */
+    .login-container {
+        margin-top: 25px;
+    }
+    .clik-LupaPassword {
+        margin-left: 7px;
+    }
+    .btn-closed {
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .logo-login-right-1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .logo-login-right-1 img {
+        width: 60px;
+        height: 60px;
+    }
+    .text-logo-right-1 {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .text-logo-right-1 span {
+        font-size: 13px;
+    }
+    .logo-login-right-2 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .logo-login-right-2 img {
+        width: 65px;
+        height: 65px;
+    }
+    .text-logo-right-2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .text-logo-right-2 span {
+        font-size: 13px;
+    }
+    .login-container .right-box {
+        background-image: url('assets/images/login-3.png');
+    }
+    /* end login */
+    /* register */
+    .register-container {
+        margin-top: 25px;
+    }
+    .register-container .right-box {
+        background-image: url('assets/images/login-3.png');
+    }
+    /* end register */
+    /* lupa password */
+    .LupaPassword-container {
+        margin-top: 25px;
+    }
+    .LupaPassword-container .right-box {
+        background-image: url('assets/images/login-3.png');
+    }
+    .clik-forget {
+        padding-bottom: 148px;
+    }
+    .text-forget {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    /* end lupa password */
+}
+
+
+/* end login,register, lupa password */
+
+
+/* beranda */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    .beranda {
+        margin-bottom: -100px;
+    }
+    .img-welcome {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .img-welcome img {
+        width: 300px;
+        height: 340px;
+    }
+    .text-welcome {
+        margin-top: 160px;
+        text-align: center;
+    }
+    .text-welcome h1 {
+        font-size: 45px;
+    }
+    .text-welcome h2 {
+        font-size: 45px;
+        width: 365px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-bmti-beranda {
+        margin-right: 10px;
+    }
+    .logo-bmti-beranda p {
+        bottom: 70px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .logo-kemdikbud-beranda {
+        margin-left: 10px;
+    }
+    .logo-kemdikbud-beranda p {
+        bottom: 75px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    /* pelatihan */
+    .pel-mandiri {
+        margin-top: -50px;
+        text-align: center;
+    }
+    .margin-pel-mandiri {
+        margin-top: 70px;
+    }
+    .pel-terbimbing {
+        text-align: center;
+    }
+    .img-mandiri img {
+        width: 200px;
+        height: 200px;
+    }
+    .margin-pel-terbimbing {
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .img-terbimbing {
+        margin-top: 0;
+    }
+    .img-terbimbing img {
+        width: 250px;
+        height: 250px;
+    }
+    /* end pelatihan */
+    /* participant */
+    .bg-office {
+        width: 100%;
+        height: 540px;
+    }
+    .peserta {
+        width: 210px;
+        position: relative;
+        bottom: 20px;
+        height: 120px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mandiri-image {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    .mandiri-image img {
+        width: 80px;
+        height: 70px;
+    }
+    .terbimbing-image {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    .terbimbing-image img {
+        width: 80px;
+        height: 70px;
+    }
+    .sertifikat-image {
+        margin-top: 35px;
+        margin-left: -5px;
+    }
+    .sertifikat-image img {
+        width: 80px;
+        height: 70px;
+    }
+    .pengunjung-image {
+        margin-top: 35px;
+        margin-left: -5px;
+    }
+    .pengunjung-image img {
+        width: 80px;
+        height: 70px;
+    }
+    /* end participant */
+    /* afiliasi */
+    .text-afiliasi {
+        margin-top: 50px;
+    }
+    .text-afiliasi hr {
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        margin-top: -10px;
+    }
+    /* end afiliasi */
+    /* testimonial */
+    .testimonial {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .testimonial hr {
+        width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .slider p {
+        padding-bottom: 10px;
+    }
+    .img-content iframe {
+        display: block;
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .beranda {
+        margin-bottom: -100px;
+    }
+    .img-welcome {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .img-welcome img {
+        width: 300px;
+        height: 300px;
+    }
+    .text-welcome {
+        margin-top: 160px;
+        text-align: center;
+    }
+    .text-welcome h1 {
+        font-size: 45px;
+    }
+    .text-welcome h2 {
+        font-size: 45px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-kemdikbud-beranda {
+        margin-left: 30px;
+    }
+    .logo-kemdikbud-beranda p {
+        left: 80px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-beranda {
+        margin-right: 15px;
+    }
+    .logo-bmti-beranda p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    /* pelatihan */
+    .pel-mandiri {
+        margin-top: -50px;
+        text-align: center;
+    }
+    .margin-pel-mandiri {
+        margin-top: 70px;
+    }
+    .pel-terbimbing {
+        text-align: center;
+    }
+    .img-mandiri img {
+        width: 200px;
+        height: 200px;
+    }
+    .margin-pel-terbimbing {
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .img-terbimbing {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-terbimbing img {
+        width: 250px;
+        height: 250px;
+    }
+    /* end pelatihan */
+    /* participant */
+    .bg-office {
+        width: 100%;
+        height: 540px;
+    }
+    .peserta {
+        width: 210px;
+        position: relative;
+        bottom: 20px;
+        height: 120px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mandiri-image {
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+    .mandiri-image img {
+        height: 60px;
+        width: 70px;
+    }
+    .terbimbing-image {
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+    .terbimbing-image img {
+        height: 60px;
+        width: 70px;
+    }
+    .sertifikat-image {
+        margin-top: 45px;
+        margin-left: 5px;
+    }
+    .sertifikat-image img {
+        height: 60px;
+        width: 70px;
+    }
+    .pengunjung-image {
+        margin-top: 45px;
+        margin-left: 5px;
+    }
+    .pengunjung-image img {
+        height: 60px;
+        width: 70px;
+    }
+    /* end participant */
+    /* afiliasi */
+    .text-afiliasi {
+        margin-top: 50px;
+    }
+    .text-afiliasi hr {
+        width: 150px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* end afiliasi */
+    /* testimonial */
+    .testimonial {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .testimonial hr {
+        width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider {
+        text-align: center;
+    }
+    .slider p {
+        padding-bottom: 10px;
+    }
+    .img-content iframe {
+        display: block;
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .beranda {
+        margin-bottom: -100px;
+    }
+    .img-welcome {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .img-welcome img {
+        width: 320px;
+        height: 320px;
+    }
+    .text-welcome {
+        margin-top: 160px;
+        text-align: center;
+    }
+    .text-welcome h1 {
+        font-size: 45px;
+    }
+    .text-welcome h2 {
+        font-size: 45px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-kemdikbud-beranda {
+        margin-left: 30px;
+    }
+    .logo-kemdikbud-beranda p {
+        left: 80px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-beranda p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    /* pelatihan */
+    .pel-mandiri {
+        text-align: center;
+        margin-top: -50px;
+    }
+    .margin-pel-mandiri {
+        margin-top: 70px;
+    }
+    .pel-terbimbing {
+        text-align: center;
+    }
+    .img-mandiri img {
+        width: 200px;
+        height: 200px;
+    }
+    .margin-pel-terbimbing {
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .img-terbimbing {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-terbimbing img {
+        width: 250px;
+        height: 250px;
+    }
+    /* end pelatihan */
+    /* participant */
+    .bg-office {
+        width: 100%;
+        height: 280px;
+    }
+    .peserta {
+        width: 210px;
+        position: relative;
+        bottom: 20px;
+        height: 120px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mandiri-image {
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+    .mandiri-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .terbimbing-image {
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+    .terbimbing-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .sertifikat-image {
+        margin-top: 45px;
+        margin-left: 5px;
+    }
+    .sertifikat-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .pengunjung-image {
+        margin-top: 45px;
+        margin-left: 5px;
+    }
+    .pengunjung-image img {
+        width: 70px;
+        height: 60px;
+    }
+    /* end participant */
+    /* afiliasi */
+    .text-afiliasi {
+        margin-top: 50px;
+    }
+    .text-afiliasi hr {
+        width: 160px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* end afiliasi */
+    /* testimonial */
+    .testimonial {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .testimonial hr {
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider {
+        text-align: center;
+    }
+    .slider p {
+        padding-bottom: 10px;
+    }
+    .img-content iframe {
+        display: block;
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .beranda {
+        margin-bottom: -100px;
+    }
+    .img-welcome {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .img-welcome img {
+        width: 350px;
+        height: 350px;
+    }
+    .text-welcome {
+        margin-top: 160px;
+        text-align: center;
+    }
+    .logo-kemdikbud-beranda {
+        margin-left: 45px;
+    }
+    .logo-kemdikbud-beranda p {
+        bottom: 70px;
+    }
+    .logo-bmti-beranda {
+        margin-left: 10px;
+    }
+    .logo-bmti-beranda p {
+        bottom: 70px;
+    }
+    /* pelatihan */
+    .pel-mandiri {
+        text-align: center;
+        margin-top: -50px;
+    }
+    .margin-pel-mandiri {
+        margin-top: 70px;
+    }
+    .pel-terbimbing {
+        text-align: center;
+    }
+    .img-mandiri img {
+        width: 250px;
+        height: 250px;
+    }
+    .margin-pel-terbimbing {
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .img-terbimbing {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-terbimbing img {
+        width: 300px;
+        height: 300px;
+    }
+    /* end pelatihan */
+    /* participant */
+    .bg-office {
+        width: 100%;
+        height: 180px;
+    }
+    .peserta {
+        height: 110px;
+        width: 170px;
+    }
+    .peserta p {
+        width: 150px;
+        font-size: 14px;
+    }
+    .peserta h1 {
+        font-size: 20px;
+    }
+    .mandiri-image {
+        margin-top: 35px;
+    }
+    .mandiri-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .terbimbing-image {
+        margin-top: 35px;
+    }
+    .terbimbing-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .sertifikat-image {
+        margin-top: 35px;
+        margin-left: -15px;
+    }
+    .sertifikat-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .pengunjung-image {
+        margin-top: 35px;
+        margin-left: -10px;
+    }
+    .pengunjung-image img {
+        width: 70px;
+        height: 60px;
+    }
+    /* end participant */
+    /* afiliasi */
+    .text-afiliasi {
+        margin-top: 50px;
+    }
+    .text-afiliasi hr {
+        left: 28%;
+    }
+    /* end afiliasi */
+    /* testimonial */
+    .testimonial {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .testimonial hr {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .slider p {
+        padding-bottom: 10px;
+    }
+    .img-content iframe {
+        display: block;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .text-welcome {
+        margin-left: 40px;
+    }
+    .img-welcome img {
+        width: 340px;
+        height: 350px;
+    }
+    .logo-kemdikbud-beranda {
+        margin-left: 40px;
+    }
+    /* pelatihan */
+    .pel-mandiri {
+        margin-left: 40px;
+    }
+    .margin-pel-mandiri {
+        margin-top: -200px;
+    }
+    .margin-pel-terbimbing {
+        margin-top: -440px;
+        margin-left: 480px;
+    }
+    .img-mandiri img {
+        width: 300px;
+        height: 300px;
+    }
+    .img-terbimbing img {
+        width: 300px;
+        height: 300px;
+    }
+    /* end pelatihan */
+    /* participant */
+    .peserta {
+        height: 140px;
+        width: 200px;
+    }
+    .peserta p {
+        width: 210px;
+        font-size: 16px;
+    }
+    .peserta h1 {
+        font-size: 24px;
+    }
+    .mandiri-image {
+        margin-top: 35px;
+    }
+    .mandiri-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .terbimbing-image {
+        margin-top: 35px;
+    }
+    .terbimbing-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .sertifikat-image {
+        margin-top: 35px;
+        margin-left: -15px;
+    }
+    .sertifikat-image img {
+        width: 70px;
+        height: 60px;
+    }
+    .pengunjung-image {
+        margin-top: 35px;
+        margin-left: -10px;
+    }
+    .pengunjung-image img {
+        width: 70px;
+        height: 60px;
+    }
+    /* end participant */
+}
+
+
+/* end beranda */
+
+
+/* galeria */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    .text-galeria {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-galeria h1 {
+        font-size: 45px;
+    }
+    .img-galeria {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .img-galeria img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+    .text-galeria-2 p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search-box {
+        position: relative;
+        left: 30px;
+        width: 330px;
+    }
+    .fas {
+        left: -10px;
+        font-size: 18px;
+    }
+    .search-input {
+        left: 0px;
+        font-size: 16px;
+        width: 260px;
+    }
+    .logo-bmti-galeria {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    .logo-bmti-galeria p {
+        bottom: 70px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .logo-kemdikbud-galeria {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .logo-kemdikbud-galeria p {
+        bottom: 75px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .galeria-kompetisi {
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+    .galeria-kompetisi h1 {
+        font-size: 35px;
+    }
+    .galeria-kompetisi p {
+        font-size: 13px;
+        width: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 208px;
+    }
+    .image img {
+        width: 300px;
+        height: 208px;
+    }
+    .image h4 {
+        width: 250px;
+    }
+    .image p {
+        width: 250px;
+    }
+    /* teknik permesinan */
+    .text-kompetensi {
+        margin-top: 160px;
+    }
+    .text-kompetensi h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+    .text-kompetensi p {
+        text-align: center;
+    }
+    .image-permesinan {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-teknik-permesinan img {
+        width: 185px;
+        height: 120px;
+    }
+    .logo-bmti-kompetensi {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    .logo-bmti-kompetensi p {
+        bottom: 70px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .logo-kemdikbud-kompetensi {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .logo-kemdikbud-kompetensi p {
+        bottom: 75px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .galeria-kompetensi-kategori {
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        line-height: 10px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .img-teknik-permesinan {
+        display: block;
+        width: 300px;
+        height: 205px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-teknik-permesinan img {
+        width: 300px;
+        height: 205px;
+    }
+    .bg-komptensi-materi {
+        top: 90px;
+        left: 20px;
+        width: 90%;
+        height: 80%;
+    }
+    .content-materi {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-materi iframe {
+        width: 350px;
+        height: 250px;
+    }
+    .shared {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .shared img {
+        width: 60px;
+    }
+    /* materi */
+    .text-kompetensi-2 {
+        text-align: center;
+    }
+    .text-kompetensi-2 h1 {
+        font-size: 45px;
+    }
+    .text-kompetensi-2 img {
+        width: 370px;
+    }
+    /* end materi */
+    /* end teknik permesinan */
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .text-galeria {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-galeria h1 {
+        font-size: 45px;
+    }
+    .img-galeria {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-galeria img {
+        width: 300px;
+        height: 300px;
+    }
+    .text-galeria-2 p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search-box {
+        position: relative;
+        left: 30px;
+        width: 410px;
+    }
+    .fas {
+        left: -10px;
+        font-size: 18px;
+    }
+    .search-input {
+        left: 0px;
+        font-size: 16px;
+        width: 340px;
+    }
+    .logo-kemdikbud-galeria {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .logo-kemdikbud-galeria p {
+        left: 75px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-galeria {
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .logo-bmti-galeria p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .galeria-kompetisi {
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+    .galeria-kompetisi h1 {
+        font-size: 35px;
+    }
+    .galeria-kompetisi p {
+        font-size: 13px;
+        width: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 208px;
+    }
+    .image img {
+        width: 300px;
+        height: 208px;
+    }
+    .image h4 {
+        width: 250px;
+    }
+    .image p {
+        width: 250px;
+    }
+    /* teknik permesinan */
+    .text-kompetensi {
+        margin-top: 160px;
+    }
+    .text-kompetensi h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+    .text-kompetensi p {
+        text-align: center;
+        width: 330px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-permesinan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-teknik-permesinan img {
+        width: 200px;
+        height: 130px;
+    }
+    .logo-kemdikbud-kompetensi {
+        margin-top: 50px;
+        margin-left: 35px;
+        height: 100px;
+    }
+    .logo-kemdikbud-kompetensi p {
+        left: 75px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-kompetensi {
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .logo-bmti-kompetensi p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .image-teknik-permesinan {
+        display: block;
+        width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: flex-start;
+    }
+    .galeria-kompetensi-kategori {
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        line-height: 10px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .img-teknik-permesinan {
+        display: block;
+        width: 300px;
+        height: 205px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-teknik-permesinan img {
+        width: 300px;
+        height: 205px;
+    }
+    .bg-komptensi-materi {
+        position: relative;
+        top: 15px;
+        left: 0px;
+        margin: auto;
+        width: 90%;
+        height: 95%;
+    }
+    .content-materi {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-materi iframe {
+        width: 390px;
+        height: 260px;
+    }
+    .shared {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .shared img {
+        width: 60px;
+    }
+    /* materi */
+    .text-kompetensi-2 {
+        text-align: center;
+    }
+    .text-kompetensi-2 h1 {
+        font-size: 45px;
+    }
+    .text-kompetensi-2 img {
+        width: 400px;
+    }
+    /* end materi */
+    /* end teknik permesinan */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .text-galeria {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-galeria h1 {
+        font-size: 45px;
+    }
+    .img-galeria {
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .img-galeria img {
+        width: 300px;
+        height: 300px;
+    }
+    .text-galeria-2 p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
+    }
+    .fas {
+        left: -10px;
+        font-size: 18px;
+    }
+    .search-input {
+        left: 0px;
+        font-size: 16px;
+        width: 420px;
+    }
+    .logo-kemdikbud-galeria {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    .logo-kemdikbud-galeria p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .logo-bmti-galeria {
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .logo-bmti-galeria p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .galeria-kompetisi {
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+    .galeria-kompetisi h1 {
+        font-size: 35px;
+    }
+    .galeria-kompetisi p {
+        font-size: 13px;
+    }
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 250px;
+    }
+    .image img {
+        width: 360px;
+        height: 250px;
+    }
+    .image h4 {
+        width: 250px;
+    }
+    .image p {
+        width: 250px;
+    }
+    /* teknik permesinan */
+    .text-kompetensi {
+        margin-top: 160px;
+    }
+    .text-kompetensi h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+    .text-kompetensi p {
+        text-align: center;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-kemdikbud-kompetensi {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    .logo-kemdikbud-kompetensi p {
+        left: 80px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-kompetensi {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .logo-bmti-kompetensi p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .image-permesinan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-teknik-permesinan img {
+        width: 250px;
+        height: 170px;
+    }
+    .galeria-kompetensi-kategori {
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        line-height: 10px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .img-teknik-permesinan {
+        display: block;
+        width: 360px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-teknik-permesinan img {
+        width: 360px;
+        height: 250px;
+    }
+    .bg-komptensi-materi {
+        position: relative;
+        top: 15px;
+        left: 0px;
+        margin: auto;
+        width: 90%;
+        height: 95%;
+    }
+    .content-materi {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-materi iframe {
+        width: 450px;
+        height: 290px;
+    }
+    .shared {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .shared img {
+        width: 60px;
+    }
+    /* materi */
+    .text-kompetensi-2 {
+        text-align: center;
+    }
+    .text-kompetensi-2 img {
+        width: 450px;
+    }
+    /* end materi */
+    /* end teknik permesinan */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .text-galeria {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .img-galeria {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .text-galeria-2 p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+    .fas {
+        left: -10px;
+        font-size: 18px;
+    }
+    .search-input {
+        left: 0px;
+        font-size: 16px;
+        width: 580px;
+    }
+    .logo-kemdikbud-galeria {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .logo-kemdikbud-galeria p {
+        left: 80px;
+        bottom: 70px;
+    }
+    .logo-bmti-galeria {
+        margin-left: 65px;
+        margin-top: 50px;
+    }
+    .logo-bmti-galeria p {
+        left: 80px;
+        bottom: 70px;
+    }
+    .galeria-kompetisi {
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+    .galeria-kompetisi h1 {
+        font-size: 40px;
+    }
+    .galeria-kompetisi p {
+        font-size: 16px;
+    }
+    .image {
+        width: 230px;
+        height: 160px;
+    }
+    .image img {
+        width: 230px;
+        height: 160px;
+    }
+    .image-text {
+        padding: 20px;
+    }
+    .image h4 {
+        width: 180px;
+        font-size: 15px;
+    }
+    .image p {
+        width: 180px;
+        font-size: 12px;
+    }
+    /* teknik permesinan */
+    .text-kompetensi {
+        margin-top: 160px;
+    }
+    .text-kompetensi h1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 670px;
+    }
+    .text-kompetensi p {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 670px;
+    }
+    .logo-kemdikbud-kompetensi {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .logo-kemdikbud-kompetensi p {
+        bottom: 70px;
+    }
+    .logo-bmti-kompetensi {
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    .logo-bmti-kompetensi p {
+        bottom: 70px;
+    }
+    .image-permesinan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-teknik-permesinan img {
+        width: 310px;
+        height: 180px;
+    }
+    .galeria-kompetensi-kategori {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        line-height: 10px;
+        height: 30px;
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+    }
+    .img-teknik-permesinan {
+        width: 230px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-teknik-permesinan img {
+        width: 230px;
+        height: 160px;
+    }
+    .img-teknik-permesinan p {
+        font-size: 14px;
+    }
+    .img-teknik-permesinan h5 {
+        font-size: 11px;
+    }
+    .bg-komptensi-materi {
+        position: relative;
+        top: 15px;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 95%;
+    }
+    .content-materi {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+    }
+    .content-materi iframe {
+        width: 540px;
+        height: 340px;
+    }
+    .shared {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .shared img {
+        width: 60px;
+    }
+    /* materi */
+    .text-kompetensi-2 {
+        text-align: center;
+    }
+    .text-kompetensi-2 img {
+        width: 550px;
+    }
+    /* end materi */
+    /* end teknik permesinan */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .text-galeria {
+        margin-left: 40px;
+    }
+    .img-galeria {
+        margin-top: -50px;
+    }
+    .img-galeria img {
+        width: 320px;
+        height: 320px;
+    }
+    .search-box {
+        width: 500px;
+    }
+    .search-input {
+        left: 25px;
+        width: 430px;
+    }
+    .logo-kemdikbud-galeria {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .logo-bmti-galeria {
+        margin-top: 50px;
+    }
+    .image {
+        position: relative;
+        width: 100%;
+        height: 247px;
+    }
+    .image img {
+        width: 296px;
+        height: 247px;
+    }
+    /* teknik permesinan */
+    .text-kompetensi {
+        margin-left: 40px;
+    }
+    .image-permesinan {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .logo-kemdikbud-kompetensi {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .logo-bmti-kompetensi {
+        margin-top: 50px;
+    }
+    .galeria-kompetensi-kategori {
+        font-size: 12px;
+    }
+    .img-teknik-permesinan {
+        width: 300px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-teknik-permesinan img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+/* end galeria */
+
+
+/* pelatihan mandiri */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    .text-mandiri {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-mandiri p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+    }
+    .text-mandiri span {
+        margin: 0;
+    }
+    .text-mandiri h1 {
+        font-size: 45px;
+    }
+    .title-mandiri {
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+    .title-mandiri h1 {
+        font-size: 35px;
+    }
+    .title-mandiri p {
+        font-size: 13px;
+        width: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-bmti-mandiri {
+        margin-left: 35px;
+    }
+    .logo-bmti-mandiri p {
+        bottom: 70px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .logo-kemdikbud-mandiri {
+        margin-left: 10px;
+    }
+    .logo-kemdikbud-mandiri p {
+        bottom: 75px;
+        left: 75px;
+        text-align: center;
+        width: 100px;
+    }
+    .card-pel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .btn-pel {
+        width: 250px;
+    }
+    .card-margin {
+        margin-bottom: -70px;
+    }
+    /* model-3d */
+    .text-tpgm {
+        margin-top: 160px;
+        text-align: center;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-account {
+        margin-left: 30px;
+    }
+    .account {
+        margin-top: 5px;
+        right: 0px;
+        left: 5px;
+    }
+    .img-rating {
+        margin-left: 100px;
+    }
+    .rating {
+        right: 0px;
+    }
+    .image-tpgm {
+        text-align: center;
+    }
+    .image-tpgm img {
+        width: 340px;
+        height: 280px;
+    }
+    .line-left {
+        left: 0;
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    .course {
+        left: 15px;
+        width: 300px;
+    }
+    .shared-3d {
+        display: none;
+    }
+    .content {
+        margin-top: -60px;
+    }
+    .icon-mandiri {
+        position: relative;
+        bottom: 70px;
+    }
+    .bg-box {
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg-box a {
+        left: 0;
+    }
+    .bg-box span {
+        font-size: 15px;
+    }
+    .content label {
+        left: calc(72% - 10px);
+        margin-top: 50px;
+    }
+    .collapse-1 a {
+        margin-top: -40px;
+    }
+    .collapse-2 a {
+        margin-top: -40px;
+    }
+    .collapse-3 a {
+        margin-top: -40px;
+    }
+    .collapse-4 a {
+        margin-top: -40px;
+    }
+    .collapse-5 a {
+        margin-top: -40px;
+    }
+    .collapse-1 label {
+        margin-top: -42px;
+    }
+    .collapse-2 label {
+        margin-top: -42px;
+    }
+    .collapse-3 label {
+        margin-top: -42px;
+    }
+    .collapse-4 label {
+        margin-top: -42px;
+    }
+    .collapse-5 label {
+        margin-top: -42px;
+    }
+    .img-rating-2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rating-2 {
+        right: 0px;
+        top: -5px;
+        text-align: center;
+    }
+    .shared-3d-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    /* end modal-3d */
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .text-mandiri {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-mandiri p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 440px;
+    }
+    .text-mandiri span {
+        margin: 0;
+    }
+    .text-mandiri h1 {
+        font-size: 45px;
+    }
+    .logo-kemdikbud-mandiri {
+        margin-left: 35px;
+    }
+    .logo-kemdikbud-mandiri p {
+        bottom: 75px;
+        left: 75px;
+        text-align: center;
+    }
+    .logo-bmti-mandiri {
+        margin-left: 25px;
+    }
+    .logo-bmti-mandiri p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .title-mandiri {
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+    .title-mandiri h1 {
+        font-size: 35px;
+    }
+    .title-mandiri p {
+        font-size: 14px;
+    }
+    .card-pel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .btn-pel {
+        width: 250px;
+    }
+    .card-margin {
+        margin-top: 50px;
+    }
+    /* model-3d */
+    .text-tpgm {
+        margin-top: 160px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .img-account {
+        margin-left: 35px;
+    }
+    .account {
+        right: 0px;
+        left: 5px;
+    }
+    .img-rating {
+        margin-left: 120px;
+    }
+    .rating {
+        right: 0px;
+    }
+    .image-tpgm {
+        text-align: center;
+    }
+    .image-tpgm img {
+        width: 420px;
+        height: 320px;
+    }
+    .line-left {
+        margin-top: 90px;
+        left: 0;
+        margin-left: 35px;
+    }
+    .course {
+        left: 15px;
+        width: 380px;
+    }
+    .icon-mandiri {
+        position: relative;
+        bottom: 60px;
+        margin-left: -7px;
+    }
+    .shared-3d {
+        display: none;
+    }
+    .content {
+        margin-top: -60px;
+    }
+    .content p {
+        width: 320px;
+        font-size: 15px;
+    }
+    .bg-box {
+        width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg-box a {
+        left: 0;
+    }
+    .bg-box span {
+        font-size: 15px;
+    }
+    .img-rating-2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rating-2 {
+        right: 0px;
+        top: -5px;
+        text-align: center;
+    }
+    .shared-3d-2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* end modal-3d */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .text-mandiri {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-mandiri p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text-mandiri span {
+        margin: 0;
+    }
+    .text-mandiri h1 {
+        font-size: 45px;
+    }
+    .logo-kemdikbud-mandiri {
+        margin-left: 35px;
+    }
+    .logo-kemdikbud-mandiri p {
+        left: 80px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-mandiri {
+        margin-left: 35px;
+    }
+    .logo-bmti-mandiri p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .title-mandiri {
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+    .title-mandiri h1 {
+        font-size: 35px;
+    }
+    .title-mandiri p {
+        font-size: 14px;
+    }
+    .card-pel {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .card-margin {
+        margin-top: 50px;
+    }
+    /* model-3d */
+    .text-tpgm {
+        margin-top: 160px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-account {
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .account {
+        margin-top: 10px;
+        right: 0px;
+        left: 5px;
+    }
+    .img-rating {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    .rating {
+        margin-top: 10px;
+        right: 0px;
+    }
+    .image-tpgm {
+        text-align: center;
+    }
+    .image-tpgm img {
+        width: 500px;
+        height: 300px;
+    }
+    .line-left {
+        margin-top: 90px;
+        left: 0;
+        margin-left: 35px;
+    }
+    .course {
+        left: 15px;
+        width: 430px;
+    }
+    .icon-mandiri {
+        position: relative;
+        bottom: 60px;
+        margin-left: -3px;
+    }
+    .shared-3d {
+        display: none;
+    }
+    .content {
+        margin-top: -50px;
+    }
+    .bg-box {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg-box a {
+        left: 0;
+    }
+    .bg-box span {
+        font-size: 15px;
+    }
+    .img-rating-2 {
+        position: relative;
+        left: 10px;
+        text-align: end;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rating-2 {
+        text-align: start;
+        right: 15px;
+    }
+    .shared-3d-2 {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* end modal-3d */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .text-mandiri {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .text-mandiri p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text-mandiri span {
+        margin-right: 80px;
+    }
+    .text-mandiri h1 {
+        font-size: 45px;
+    }
+    .logo-kemdikbud-mandiri {
+        margin-left: 55px;
+    }
+    .logo-kemdikbud-mandiri p {
+        left: 80px;
+        bottom: 75px;
+        text-align: center;
+    }
+    .logo-bmti-mandiri {
+        margin-left: 60px;
+    }
+    .logo-bmti-mandiri p {
+        left: 80px;
+        bottom: 70px;
+        text-align: center;
+    }
+    .title-mandiri {
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+    .title-mandiri h1 {
+        font-size: 40px;
+    }
+    .title-mandiri p {
+        font-size: 16px;
+    }
+    .card-pel {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 220px;
+        height: auto;
+    }
+    .btn-pel {
+        width: 180px;
+    }
+    .card-margin {
+        margin-top: 50px;
+    }
+    /* model-3d */
+    .text-tpgm {
+        margin-top: 160px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-account {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .account {
+        margin-top: 20px;
+        right: 10px;
+    }
+    .img-rating {
+        margin-top: 20px;
+        margin-left: 125px;
+    }
+    .rating {
+        margin-top: 20px;
+        right: 15px;
+    }
+    .image-tpgm {
+        text-align: center;
+    }
+    .image-tpgm img {
+        width: 600px;
+        height: 350px;
+    }
+    .line-left {
+        margin-top: 60px;
+        left: 0;
+        margin-left: 55px;
+    }
+    .course {
+        left: 15px;
+        width: 550px;
+    }
+    .icon-mandiri {
+        position: relative;
+        bottom: 50px;
+        margin-left: -16px;
+    }
+    .shared-3d {
+        display: none;
+    }
+    .content {
+        margin-top: -40px;
+    }
+    .content h2 {
+        margin-left: 50px;
+    }
+    .bg-box {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg-box a {
+        left: 0;
+    }
+    .bg-box span {
+        font-size: 15px;
+    }
+    .img-rating-2 {
+        position: relative;
+        left: 10px;
+        text-align: end;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rating-2 {
+        text-align: start;
+        right: 15px;
+    }
+    .shared-3d-2 {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* end modal-3d */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .text-mandiri {
+        margin-left: 40px;
+    }
+    .logo-kemdikbud-mandiri {
+        margin-left: 40px;
+    }
+    .card-pel {
+        width: 300px;
+    }
+    .btn-pel {
+        width: 260px;
+    }
+    /* model-3d */
+    .text-tpgm p {
+        margin-left: 40px;
+    }
+    .img-account {
+        margin-left: 40px;
+    }
+    .account {
+        right: 35px;
+    }
+    .img-rating {
+        margin-left: 40px;
+    }
+    .rating {
+        right: 40px;
+    }
+    .image-tpgm {
+        margin-left: 40px;
+    }
+    .image-tpgm img {
+        width: 430px;
+        height: 300px;
+    }
+    .line-left {
+        left: 100px;
+    }
+    .course {
+        width: 360px;
+    }
+    .shared-3d {
+        margin-left: 40px;
+    }
+    .bg-box {
+        width: 95%;
+    }
+    .content {
+        margin-left: 40px;
+    }
+    .img-rating-2 {
+        margin-left: 5px;
+    }
+    /* end model-3d */
+}
+
+
+/* end pelatihan mandiri */
+
+
+/* alur-pembelajaran */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    .alur-pembelajaran {
+        height: 1050px;
+    }
+    .alur-img {
+        width: 350px;
+        height: 300px;
+    }
+    .sertifikat-img {
+        width: 350px;
+        height: 500px;
+    }
+    .road-map {
+        margin-top: 200px;
+    }
+    .text1 {
+        font-size: 53px;
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-alur {
+        margin-top: 220px;
+    }
+    .img-alur img {
+        width: 370px;
+        height: 250px;
+    }
+    .myButton1 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .btn-closeAlur {
+        top: 210px;
+        left: 350px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .road-map {
+        margin-top: 200px;
+    }
+    .text1 {
+        font-size: 53px;
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alur-img {
+        width: 420px;
+        height: 320px;
+    }
+    .sertifikat-img {
+        width: 420px;
+        height: 520px;
+    }
+    .img-alur {
+        margin-top: 170px;
+    }
+    .img-alur img {
+        width: 440px;
+        height: 330px;
+    }
+    .btn-closeAlur {
+        top: 160px;
+        left: 430px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .road-map {
+        margin-top: 200px;
+    }
+    .text1 {
+        font-size: 53px;
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alur-img {
+        width: 470px;
+        height: 320px;
+    }
+    .sertifikat-img {
+        width: 420px;
+        height: 520px;
+    }
+    .img-alur {
+        margin-top: 170px;
+    }
+    .img-alur img {
+        width: 520px;
+        height: 330px;
+    }
+    .btn-closeAlur {
+        top: 160px;
+        left: 510px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .road-map {
+        margin-top: 200px;
+    }
+    .text1 {
+        font-size: 67px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alur-img {
+        width: 600px;
+        height: 350px;
+    }
+    .sertifikat-img {
+        width: 450px;
+        height: 550px;
+    }
+    .img-alur {
+        margin-top: 80px;
+    }
+    .img-alur img {
+        width: 700px;
+        height: 500px;
+    }
+    .btn-closeAlur {
+        top: 70px;
+        left: 690px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .img-alur {
+        margin-top: 20px;
+    }
+    .alur-img {
+        width: 450px;
+        height: 300px;
+    }
+    .img-alur img {
+        width: 930px;
+        height: 600px;
+    }
+    .btn-closeAlur {
+        top: 10px;
+        left: 920px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1333px) {
+    .img-alur img {
+        width: 1100px;
+        height: 600px;
+    }
+    .btn-closeAlur {
+        left: 1100px;
+    }
+}
+
+
+/* end alur-pembelajaran */
+
+
+/* footer */
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    footer {
+        padding-top: 20px;
+    }
+    .logo-footer {
+        top: 0;
+        right: 0;
+    }
+    .logo-footer img {
+        width: 90px;
+        height: 80px;
+    }
+    .logo-footer h1 {
+        position: relative;
+        top: -10px;
+        left: 25px;
+        font-size: 10px;
+    }
+    .share {
+        margin-top: 8px;
+        right: 0;
+    }
+    .share img {
+        width: 20px;
+        height: 20px;
+    }
+    .text-1 span {
+        font-size: 10px;
+    }
+    .text-1 p {
+        font-size: 8px;
+    }
+    .text-2 {
+        margin-left: -20px;
+    }
+    .text-2 span {
+        font-size: 10px;
+    }
+    .text-2 p {
+        position: relative;
+        top: 10px;
+        font-size: 8px;
+    }
+    .address {
+        margin-left: -20px;
+    }
+    .address span {
+        font-size: 10px;
+    }
+    .address p {
+        position: relative;
+        width: 140px;
+        top: 10px;
+        font-size: 8px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+    .copyright span {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    footer {
+        padding-top: 20px;
+    }
+    .logo-footer {
+        top: 0;
+        right: 0;
+        margin-left: 10px;
+    }
+    .logo-footer img {
+        width: 90px;
+        height: 80px;
+    }
+    .logo-footer h1 {
+        position: relative;
+        top: -10px;
+        left: 25px;
+        font-size: 10px;
+    }
+    .share {
+        margin-top: 8px;
+        right: 0;
+    }
+    .share img {
+        width: 20px;
+        height: 20px;
+    }
+    .text-1 span {
+        font-size: 10px;
+    }
+    .text-1 p {
+        font-size: 8px;
+    }
+    .text-2 {
+        margin-left: -15px;
+    }
+    .text-2 span {
+        font-size: 10px;
+    }
+    .text-2 p {
+        position: relative;
+        top: 10px;
+        font-size: 8px;
+    }
+    .address {
+        margin-left: -20px;
+    }
+    .address span {
+        font-size: 10px;
+    }
+    .address p {
+        position: relative;
+        width: 140px;
+        top: 10px;
+        font-size: 8px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+    .copyright span {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    footer {
+        padding-top: 20px;
+    }
+    .logo-footer {
+        top: 0;
+        right: 0;
+        margin-left: 10px;
+    }
+    .logo-footer img {
+        width: 100px;
+        height: 80px;
+    }
+    .logo-footer h1 {
+        position: relative;
+        top: -10px;
+        left: 25px;
+        font-size: 10px;
+    }
+    .share {
+        margin-top: 8px;
+        right: 0;
+    }
+    .share img {
+        width: 20px;
+        height: 20px;
+    }
+    .text-1 span {
+        font-size: 10px;
+    }
+    .text-1 p {
+        font-size: 8px;
+    }
+    .text-2 {
+        margin-left: -10px;
+    }
+    .text-2 span {
+        font-size: 10px;
+    }
+    .text-2 p {
+        position: relative;
+        top: 10px;
+        font-size: 8px;
+    }
+    .address {
+        margin-left: -10px;
+    }
+    .address span {
+        font-size: 10px;
+    }
+    .address p {
+        position: relative;
+        width: 140px;
+        top: 10px;
+        font-size: 8px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+    .copyright span {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    footer {
+        padding-top: 20px;
+    }
+    .logo-footer {
+        top: 0;
+        right: 0;
+    }
+    .logo-footer img {
+        width: 150px;
+        height: 100px;
+    }
+    .logo-footer h1 {
+        position: relative;
+        left: 40px;
+        font-size: 12px;
+    }
+    .share {
+        margin-top: 5px;
+        right: 0;
+    }
+    .share img {
+        width: 30px;
+        height: 30px;
+    }
+    .text-1 span {
+        font-size: 14px;
+    }
+    .text-1 p {
+        font-size: 12px;
+    }
+    .text-2 {
+        margin-left: -5px;
+    }
+    .text-2 span {
+        font-size: 14px;
+    }
+    .text-2 p {
+        position: relative;
+        top: 10px;
+        font-size: 12px;
+    }
+    .address {
+        margin-left: -10px;
+    }
+    .address span {
+        font-size: 14px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+    .address p {
+        position: relative;
+        width: 250px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .copyright span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    footer {
+        padding-top: 20px;
+    }
+    .logo-footer {
+        top: 0;
+        right: 0;
+        left: 35px;
+    }
+    .logo-footer img {
+        width: 150px;
+        height: 100px;
+    }
+    .logo-footer h1 {
+        position: relative;
+        left: 40px;
+        font-size: 12px;
+    }
+    .share {
+        margin-top: 5px;
+        right: 0;
+    }
+    .share img {
+        width: 30px;
+        height: 30px;
+    }
+    .text-1 span {
+        font-size: 14px;
+    }
+    .text-1 p {
+        font-size: 12px;
+    }
+    .text-2 {
+        margin-left: -5px;
+    }
+    .text-2 span {
+        font-size: 14px;
+    }
+    .text-2 p {
+        position: relative;
+        top: 10px;
+        font-size: 12px;
+    }
+    .address {
+        margin-left: -3px;
+    }
+    .address span {
+        font-size: 14px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+    .address p {
+        position: relative;
+        width: 250px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .copyright span {
+        font-size: 12px;
+    }
+}
+
+
+/* end footer */
+
+
+/* share */
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .float-button-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .float-button-wrapper {
+        top: 20%;
+        width: 35px;
+        height: 150px;
+    }
+    .img-share-1 {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    .img-share-1:hover {
+        width: 30px;
+        height: 30px;
+    }
+    .img-share-2 {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    .img-share-2:hover {
+        width: 30px;
+        height: 30px;
+    }
+    .img-share-3 {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    .img-share-3:hover {
+        width: 30px;
+        height: 30px;
+    }
+    .img-share-4 {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    .img-share-4:hover {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    .float-button-wrapper {
+        width: 45px;
+        height: 170px;
+    }
+    .img-share-1 {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .img-share-1:hover {
+        width: 35px;
+        height: 35px;
+    }
+    .img-share-2 {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .img-share-2:hover {
+        width: 35px;
+        height: 35px;
+    }
+    .img-share-3 {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .img-share-3:hover {
+        width: 35px;
+        height: 35px;
+    }
+    .img-share-4 {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .img-share-4:hover {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+/* end share */

@@ -1,0 +1,1945 @@
+/* dashboard */
+
+.menu-dashboard {
+    display: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1199px) {
+    .menu-dashboard {
+        display: block;
+    }
+}
+
+
+/* end dashboard */
+
+
+/* scroll */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8d8d8d;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* end scroll */
+
+
+/* font style */
+
+.font-italic {
+    font-style: italic;
+}
+
+
+/* end font style */
+
+
+/* header */
+
+.active {
+    color: #FFF008;
+}
+
+header {
+    position: relative;
+    z-index: 99999;
+    margin-bottom: 40px;
+}
+
+.logo-header {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.menu ul li {
+    margin: 22px 20px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "glory";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: #FFF008;
+}
+
+.akun-button {
+    margin-left: -40px;
+    margin-top: 25px;
+    background: #FFF008;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.akun-button a {
+    display: inline-block;
+    color: #14395B;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.akun-button:hover {
+    color: #14395B;
+    background: #C6C62F;
+}
+
+.menu label {
+    font-size: 16px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu label:hover {
+    color: #FFF008;
+}
+
+input[class="collapse-mandiri"] {
+    visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+}
+
+#collapse-mandiri:checked~div {
+    display: block;
+}
+
+#collapse-mandiri:checked+label {
+    width: 129px;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    color: #C6C62F;
+}
+
+.mandiri-hidden-1 {
+    position: absolute;
+    width: 140px;
+    cursor: pointer;
+    display: none;
+}
+
+.mandiri-hidden-1 a {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "glory";
+    color: white;
+}
+
+.mandiri-hidden-1:hover {
+    color: #FFF008;
+}
+
+.mandiri-hidden-2 {
+    position: absolute;
+    width: 130px;
+    cursor: pointer;
+    display: none;
+    margin-top: 30px;
+}
+
+.mandiri-hidden-2 a {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "glory";
+    color: white;
+}
+
+.mandiri-hidden-2:hover {
+    color: #FFF008;
+}
+
+.mandiri-hidden-3 {
+    position: absolute;
+    width: 130px;
+    cursor: pointer;
+    display: none;
+    margin-top: 80px;
+}
+
+.mandiri-hidden-3 a {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "glory";
+    color: white;
+}
+
+.mandiri-hidden-3:hover {
+    color: #FFF008;
+}
+
+
+/* end header */
+
+
+/* menu */
+
+.icon-menu {
+    display: none;
+}
+
+.icon-menu-2 {
+    margin-left: 10px;
+    margin-top: 12px;
+    background-image: url("../guest/assets/images/icon-menu.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-menu-2:hover {
+    background-image: url("../guest/assets/images/icon-menu-hover.png");
+}
+
+.icon-menu-hover {
+    margin-left: 25px;
+    margin-top: 40px;
+    background-image: url("../guest/assets/images/icon-close.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.icon-menu-hover:hover {
+    background-image: url("../guest/assets/images/icon-close-hover.png");
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    z-index: 99999;
+    animation-name: menu;
+    animation-duration: 1s;
+}
+
+@keyframes menu {
+    0% {
+        left: 400px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.menu-2 ul li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.menu-2 label {
+    font-size: 17px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-2 label:hover {
+    color: #FFF008;
+}
+
+input[class="collapse-mandiri-2"] {
+    visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+}
+
+#collapse-mandiri-2:checked~div {
+    display: block;
+}
+
+#collapse-mandiri-2:checked+label {
+    width: 137px;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    color: #C6C62F;
+}
+
+
+/* end menu */
+
+
+/* Login  */
+
+.bg-login {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 999999;
+}
+
+.login-container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    flex-direction: row;
+    z-index: 999999;
+}
+
+.login-container .left-box {
+    width: 50%;
+}
+
+.left-box form {
+    width: 80%;
+    margin: auto;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.logo-login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-title {
+    text-align: center;
+}
+
+.form-login input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #018ED6;
+}
+
+.icon-user-login {
+    position: absolute;
+    left: 43%;
+    margin-top: -25px;
+}
+
+.icon-password-login {
+    position: absolute;
+    left: 43%;
+    margin-top: -30px;
+}
+
+.clik-LupaPassword {
+    font-size: 15px;
+    font-family: "glory";
+    font-weight: 600;
+    color: #0488ca;
+}
+
+.clik-LupaPassword:hover {
+    color: #024783;
+    text-decoration: underline;
+}
+
+.button-mini {
+    display: none;
+}
+
+.btn-mini {
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+    border: none;
+}
+
+.btn-login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    background: #FFF008;
+    padding: 8px 25px 8px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-login:hover {
+    background: #C6C62F;
+}
+
+.clik-register {
+    padding-bottom: 35px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.clik-register button {
+    font-family: "glory";
+    font-weight: 600;
+    color: #0488ca;
+    background: transparent;
+    border: none;
+}
+
+.clik-register button:hover {
+    color: #024783;
+    text-decoration: underline;
+}
+
+.clik-register-2 {
+    padding-bottom: 35px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.clik-register-2 a {
+    text-decoration: none;
+}
+
+.clik-register-2 a:hover {
+    color: #024783;
+    text-decoration: underline;
+}
+
+.login-container .right-box {
+    background-image: url('../guest/assets/images/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #ffffff;
+    font-family: "glory";
+    font-weight: 600;
+    width: 50%;
+}
+
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.left-box {
+    font-family: "glory";
+}
+
+.left-box h2 {
+    font-weight: 600;
+    color: #14395B;
+}
+
+.logo-login-right-1 {
+    padding-left: 30px;
+}
+
+.text-logo-right-1 {
+    margin-left: -20px;
+    font-size: 14px;
+}
+
+.text-logo-right-2 {
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+.btn-closed {
+    margin-left: 35px;
+    border: none;
+}
+
+.text-popup {
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "glory";
+    z-index: 9999999;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* end login */
+
+
+/* Register */
+
+.bg-register {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 999999;
+}
+
+.register-container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    flex-direction: row;
+    z-index: 999999;
+}
+
+.register-container .left-box {
+    width: 50%;
+}
+
+.clik-sudah-daftar button {
+    font-family: "glory";
+    font-weight: 600;
+    color: #0488ca;
+    background: transparent;
+    border: none;
+}
+
+.clik-sudah-daftar button:hover {
+    color: #024783;
+    text-decoration: underline;
+}
+
+.clik-sudah-daftar a {
+    text-decoration: none;
+}
+
+.clik-sudah-daftar a:hover {
+    color: #024783;
+    text-decoration: underline;
+}
+
+.clik-daftar {
+    padding-bottom: 31px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.register-container .right-box {
+    background-image: url('../guest/assets/images/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #ffffff;
+    font-family: "glory";
+    font-weight: 600;
+    width: 50%;
+}
+
+.btn-mini-2 {
+    position: relative;
+    top: 5px;
+    right: 30px;
+    border: none;
+}
+
+
+/* end register */
+
+
+/* lupa password */
+
+.bg-LupaPassword {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 999999;
+}
+
+.LupaPassword-container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    flex-direction: row;
+    z-index: 999999;
+}
+
+.LupaPassword-container .left-box {
+    width: 50%;
+}
+
+.text-forget {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-family: "glory";
+}
+
+.clik-forget {
+    padding-bottom: 175px;
+}
+
+.btn-forget {
+    background: #FFF008;
+    padding: 8px 25px 8px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-forget:hover {
+    background: #C6C62F;
+}
+
+.LupaPassword-container .right-box {
+    background-image: url('../guest/assets/images/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #ffffff;
+    font-family: "glory";
+    font-weight: 600;
+    width: 50%;
+}
+
+
+/* end lupa password */
+
+
+/* beranda */
+
+.beranda {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    margin-bottom: -70px;
+}
+
+.text-welcome {
+    margin-top: 140px;
+    text-align: start;
+}
+
+.text-welcome p {
+    color: white;
+    font-family: "glory";
+    font-size: 20px;
+}
+
+.text-welcome h1 {
+    color: white;
+    font-family: "glory";
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.text-welcome h2 {
+    color: #FFF008;
+    font-family: "glory";
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.text-welcome h6 {
+    color: white;
+    font-family: "glory";
+    font-size: 12px;
+}
+
+.logo-kemdikbud-beranda p {
+    position: relative;
+    bottom: 70px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.logo-bmti-beranda p {
+    position: relative;
+    bottom: 60px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.img-welcome {
+    margin-top: -70px;
+}
+
+
+/* pelatihan */
+
+.pel-mandiri h1 {
+    color: #14395B;
+    font-family: "glory";
+    font-weight: bold;
+}
+
+.margin-pel-mandiri {
+    margin-top: -300px;
+}
+
+.pel-mandiri p {
+    color: #484646;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "glory";
+}
+
+.img-mandiri {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pel-terbimbing h1 {
+    color: #14395B;
+    font-family: "glory";
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.pel-terbimbing p {
+    color: #484646;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "glory";
+}
+
+.margin-pel-terbimbing {
+    margin-top: -650px;
+    margin-left: 570px;
+}
+
+.img-terbimbing {
+    margin-top: 200px;
+}
+
+
+/* end pelatihan */
+
+
+/* participant */
+
+.bg-office {
+    position: absolute;
+    margin-top: 65px;
+    width: 100%;
+    height: 210px;
+    background-color: #f1f1f1b5;
+    z-index: -9999;
+}
+
+.participant {
+    margin-top: 100px;
+}
+
+.peserta {
+    padding: 15px;
+    background: #035397;
+    height: 140px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.peserta p {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "glory";
+    width: 215px;
+}
+
+.peserta h1 {
+    color: white;
+    font-weight: 600;
+    font-family: "glory";
+}
+
+.mandiri-image {
+    margin-top: 45px;
+}
+
+.terbimbing-image {
+    margin-top: 45px;
+}
+
+.sertifikat-image {
+    position: relative;
+    left: 10px;
+    margin-top: 43px;
+}
+
+.pengunjung-image {
+    position: relative;
+    left: 10px;
+    margin-top: 43px;
+}
+
+
+/* end participant */
+
+
+/* afiliasi */
+
+.slider-wrapper {
+    width: auto;
+    height: auto;
+}
+
+.text-afiliasi {
+    margin-top: 120px;
+}
+
+.text-afiliasi h1 {
+    color: #14395B;
+    font-weight: bold;
+    font-family: "glory";
+}
+
+.text-afiliasi hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 2px;
+    color: black;
+}
+
+
+/* end afiliasi */
+
+
+/* testimonial */
+
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial h1 {
+    color: #14395B;
+    font-family: "glory";
+    font-weight: bold;
+}
+
+.testimonial hr {
+    position: relative;
+    bottom: 15px;
+    height: 3px;
+    width: 27%;
+    color: black;
+}
+
+
+/* end testimonial */
+
+
+/* end beranda */
+
+
+/* galeria */
+
+.galeria {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    margin-bottom: -70px;
+}
+
+.logo-kemdikbud-galeria {
+    margin-top: -80px;
+}
+
+.logo-kemdikbud-galeria p {
+    position: relative;
+    bottom: 70px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.logo-bmti-galeria {
+    margin-top: -80px;
+}
+
+.logo-bmti-galeria p {
+    position: relative;
+    bottom: 60px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.img-galeria {
+    margin-top: -30px;
+}
+
+.text-galeria {
+    margin-top: 150px;
+    text-align: start;
+}
+
+.text-galeria h1 {
+    color: white;
+    font-family: "glory";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-galeria h2 {
+    font-size: 40px;
+    color: #FFF008;
+    font-family: "glory";
+    font-weight: bold;
+}
+
+.text-galeria p {
+    color: white;
+    font-family: "glory";
+    font-size: 20px;
+}
+
+.search-box {
+    background: white;
+    height: 40px;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.fas {
+    position: relative;
+    top: 7px;
+    left: 20px;
+    font-size: 20px;
+    color: #616161;
+}
+
+.search-input {
+    position: relative;
+    left: 40px;
+    top: 5px;
+    width: 550px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #616161;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.galeria-kompetisi {
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+.galeria-kompetisi h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "glory";
+}
+
+.galeria-kompetisi p {
+    font-weight: 600;
+    font-size: 19px;
+    font-family: "glory";
+}
+
+.image {
+    position: relative;
+    width: 355px;
+    height: 245px;
+}
+
+.image-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "glory";
+    background: rgba(1, 30, 68, 0.753);
+    opacity: 0;
+    cursor: pointer;
+    padding: 30px;
+    transition-duration: 0.5s;
+}
+
+.image-text>* {
+    transform: translateX(-50px);
+    transition: transform 0.5s;
+}
+
+.image-text:hover {
+    opacity: 1;
+}
+
+.image-text:hover>* {
+    transform: translateY(0px);
+}
+
+.image a {
+    text-decoration: none;
+}
+
+.image-text h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "glory";
+}
+
+.image-text p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: "glory";
+}
+
+
+/* teknik permesinan */
+
+.teknik-permesinan {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    margin-bottom: -100px;
+    padding-bottom: 20px;
+}
+
+.logo-kemdikbud-kompetensi {
+    margin-top: -100px;
+}
+
+.logo-kemdikbud-kompetensi p {
+    position: relative;
+    bottom: 65px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.logo-bmti-kompetensi {
+    margin-top: -100px;
+}
+
+.logo-bmti-kompetensi p {
+    position: relative;
+    bottom: 65px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.text-kompetensi {
+    margin-top: 150px;
+}
+
+.text-kompetensi h1 {
+    color: #FFF008;
+    font-family: "glory";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-kompetensi p {
+    color: white;
+    font-family: "glory";
+    font-size: 20px;
+}
+
+.image-permesinan {
+    margin-top: 100px;
+}
+
+.galeria-kompetensi-kategori {
+    width: auto;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #1C3B78;
+    color: white;
+    border-radius: 20px;
+    font-family: "glory";
+    font-size: 14px;
+}
+
+/* modal */
+
+.bg-materi {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 999999;
+}
+
+.bg-komptensi-materi {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    flex-direction: row;
+    z-index: 999999;
+}
+
+.materi {
+    width: 100%;
+}
+
+.materi button {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.materi-title {
+    font-family: "glory";
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.materi-title-2 {
+    font-family: "glory";
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.title-by {
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.title-by img {
+    border-radius: 100%;
+}
+
+.title-by p {
+    position: relative;
+    bottom: 40px;
+    left: 45px;
+    line-height: 10px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.shared {
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+.shared img {
+    border-radius: 8px;
+}
+
+.img-teknik-permesinan {
+    position: relative;
+    width: 355px;
+    height: 245px;
+    margin-bottom: 50px;
+}
+
+.img-teknik-permesinan p {
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.img-teknik-permesinan h5 {
+    line-height: 0;
+    font-size: 12px;
+    font-family: "glory";
+    font-weight: 600;
+    color: #8F8F8F;
+    text-align: end;
+}
+
+
+/* materi */
+
+.text-kompetensi-2 {
+    font-family: "glory";
+    margin-bottom: 10px;
+}
+
+.text-kompetensi-2 h1 {
+    margin-top: 150px;
+    color: #FFF008;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* end materi */
+
+
+/* end modal */
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "glory";
+    background: rgba(1, 30, 68, 0.753);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.bg-image>* {
+    transform: translateX(-50px);
+    transition: transform 0.5s;
+}
+
+.bg-image:hover {
+    opacity: 1;
+}
+
+.bg-image:hover>* {
+    transform: translateY(0px);
+}
+
+
+/* end teknik permesinan */
+
+
+/* end galeria */
+
+
+/* pelatihan mandiri */
+
+.pelatihan-mandiri {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    margin-bottom: -60px;
+}
+
+.logo-kemdikbud-mandiri p {
+    position: relative;
+    bottom: 70px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.logo-bmti-mandiri p {
+    position: relative;
+    bottom: 60px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "glory";
+    font-weight: 600;
+    color: white;
+}
+
+.text-mandiri {
+    margin-top: 150px;
+    text-align: start;
+}
+
+.text-mandiri p {
+    color: white;
+    font-family: "glory";
+    font-size: 20px;
+}
+
+.text-mandiri span {
+    margin-top: 30px;
+    margin-right: 50px;
+    color: white;
+    font-size: 17px;
+    font-family: "glory";
+    float: right;
+}
+
+.text-mandiri h1 {
+    color: #FFF008;
+    font-family: "glory";
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title-mandiri {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.title-mandiri h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "glory";
+}
+
+.title-mandiri p {
+    font-weight: 600;
+    font-size: 19px;
+    font-family: "glory";
+}
+
+
+/* .contact {
+    position: fixed;
+    z-index: 9999;
+    top: 78%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.image-contact {
+    width: 100px;
+    height: 100px;
+    background-image: url("../guest/assets/images/callcenterchat.png");
+    background-size: cover;
+}
+
+.image-contact:hover {
+    background-image: url("../guest/assets/images/ajenghover.png");
+} */
+
+.card-pel {
+    position: relative;
+    border: 1px solid #7070703b;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: "glory";
+    width: 360px;
+    height: auto;
+}
+
+.card-pel p {
+    position: absolute;
+    text-indent: 10px;
+}
+
+.card-pel img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body h2 {
+    font-weight: bold;
+    color: #14395B;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.btn-pel {
+    display: inline-block;
+    background: #2289FF;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "glory";
+    text-decoration: none;
+}
+
+.title-free {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    background: #00BC26;
+    color: white;
+    font-size: 12px;
+    font-family: "glory";
+    top: 2%;
+    left: -10px;
+    font-weight: bold;
+    z-index: 99999;
+}
+
+
+/* model 3d */
+
+.model-3d {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    margin-bottom: -100px;
+}
+
+.text-tpgm {
+    margin-top: 130px;
+}
+
+.text-tpgm p {
+    color: #FFF008;
+    font-family: "glory";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.account {
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+    color: white;
+    font-family: "glory";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rating {
+    position: relative;
+    right: 50px;
+    top: 8px;
+    color: white;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.image-tpgm {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.image-tpgm img {
+    border-radius: 15px;
+}
+
+.line-left {
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+    border-left: 4px solid white;
+}
+
+.course {
+    position: relative;
+    left: 30px;
+    color: white;
+    font-family: "glory";
+}
+
+.course p {
+    color: white;
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.course hr {
+    height: 1px;
+    opacity: 1;
+    color: white;
+}
+
+.course span hr {
+    height: 3px;
+    opacity: 1;
+    color: white;
+}
+
+.course span {
+    color: white;
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+
+/* .contact-model-3d {
+    position: fixed;
+    z-index: 9999;
+    top: 80%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.image-contact-model-3d {
+    width: 100px;
+    height: 100px;
+    background-image: url("../guest/assets/images/callcenterchat.png");
+    background-size: cover;
+}
+
+.image-contact-model-3d:hover {
+    background-image: url("../guest/assets/images/ajenghover.png");
+} */
+
+.shared-3d {
+    margin-left: 10px;
+}
+
+.shared-3d img {
+    border-radius: 8px;
+}
+
+.bg-box {
+    width: 100%;
+    height: 55px;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+.content h2 {
+    font-weight: bold;
+    font-family: "glory";
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content span {
+    color: black;
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.content input {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+.icon-mandiri span {
+    color: black;
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.bg-box a {
+    position: relative;
+    top: 8px;
+    left: 5px;
+    font-size: 17px;
+    font-family: "glory";
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bg-box a:hover {
+    color: #018ED6;
+}
+
+.bg-box img {
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.check-box {
+    margin-left: 17px;
+}
+
+.collapse-select img {
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+
+.collapse-select span {
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+.rating-2 {
+    position: relative;
+    right: 35px;
+    top: 8px;
+    font-family: "glory";
+    font-weight: 600;
+    text-align: start;
+}
+
+.shared-3d-2 {
+    margin-left: 10px;
+}
+
+.shared-3d-2 img {
+    border-radius: 8px;
+}
+
+
+/* end model 3d */
+
+
+/* end pelatihan mandiri */
+
+
+/* alur-pembelajaran */
+
+.alur-pembelajaran {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -250px;
+    background: linear-gradient(to top left, #018ED6, #1C3B78);
+    padding-bottom: 160px;
+}
+
+.road-map {
+    margin-top: 180px;
+}
+
+.text1 {
+    font-weight: bolder;
+    text-shadow: 4px 4px 5px #1b1e21;
+    font-size: 80px;
+    color: #FFD01C;
+}
+
+.alur-start {
+    display: inline-block;
+}
+
+.myButton {
+    height: 100px;
+    width: 380px;
+    color: white;
+    background-color: transparent;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 100px;
+    border: 5px solid #ffffff;
+    font-size: 40px;
+    font-family: "glory";
+    text-decoration: #FFD01C;
+    margin-top: 100px;
+    transition: transform .2s;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+}
+
+.myButton:hover {
+    background: #FFD01C;
+    border: 5px solid #FFD01C;
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+
+.myButton:active {
+    position: relative;
+    top: 10px;
+}
+
+.myButton1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 90px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: transparent;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 100px;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    font-family: "glory";
+    text-decoration: #FFD01C;
+    transition: transform .2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.myButton1:hover {
+    background: #FFD01C;
+    border: 5px solid #FFD01C;
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+
+.myButton1:active {
+    position: relative;
+    top: 10px;
+}
+
+.bg-alur {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 100%;
+    height: 100%;
+}
+
+.img-alur {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-closeAlur {
+    position: absolute;
+    top: 35px;
+    left: 95%;
+    text-decoration: none;
+}
+
+
+/* end alur */
+
+
+/* footer */
+
+footer {
+    color: white;
+    background: #1C3B78;
+    padding-top: 35px;
+    font-family: "glory";
+    margin-top: 100px;
+}
+
+.logo-footer h1 {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.logo-footer {
+    position: relative;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.share {
+    position: relative;
+    right: 50px;
+}
+
+.icon-share {
+    margin-bottom: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.text-1 span {
+    font-family: "glory";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-1 p {
+    position: relative;
+    top: 15px;
+    line-height: 15px;
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.text-1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-1 a:hover {
+    color: #FFF008;
+}
+
+.text-2 span {
+    font-size: 16px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.text-2 p {
+    position: relative;
+    top: 15px;
+    line-height: 15px;
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.text-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-2 a:hover {
+    color: #FFF008;
+}
+
+.address span {
+    font-size: 16px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.address p {
+    position: relative;
+    top: 15px;
+    line-height: 15px;
+    font-size: 14px;
+    width: 390px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+.address a {
+    text-decoration: none;
+    color: white;
+}
+
+.address a:hover {
+    color: #FFF008;
+}
+
+.copyright {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.copyright span {
+    font-size: 14px;
+    font-family: "glory";
+    font-weight: 600;
+}
+
+
+/* end footer */
+
+
+/* share */
+
+.float-button-wrapper {
+    position: fixed;
+    top: 26%;
+    background-color: white;
+    width: 50px;
+    height: 170px;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 99999;
+}
+
+.img-share-1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("assets/images/fb.png");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.img-share-1:hover {
+    background-image: url("assets/images/fb-red.png");
+    width: 35px;
+    height: 35px;
+    transition-duration: 0.5s;
+}
+
+.img-share-2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("assets/images/ig.png");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.img-share-2:hover {
+    background-image: url("assets/images/ig-red.png");
+    width: 35px;
+    height: 35px;
+    transition-duration: 0.5s;
+}
+
+.img-share-3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("assets/images/twitter.png");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.img-share-3:hover {
+    background-image: url("assets/images/twitter-red.png");
+    width: 35px;
+    height: 35px;
+    transition-duration: 0.5s;
+}
+
+.img-share-4 {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("assets/images/yt.png");
+    background-size: cover;
+    background-position: -5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.img-share-4:hover {
+    background-image: url("assets/images/yt-red.png");
+    width: 35px;
+    height: 35px;
+    transition-duration: 0.5s;
+}
+
+
+/* end share */
